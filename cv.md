@@ -59,7 +59,7 @@ feast("brown bear", "bear claw"); //false
 * **RS Schools Course** «JavaScript/Front-end. Stage 0» (in progress).
 * Frontend Developer - **Hexlet** (in progress).
 * JavaScript Basic - **Hexlet**.
-* [JavaScript Manual](learnjavascript.ru)
+* [JavaScript Manual](learnjavascript.ru).
 * JS, CSS, HTML - **Udemy** - courses by Vladilen Minin,
 Professionl Frontend.
 * JavaScript Developer Basic - **Otus**.
