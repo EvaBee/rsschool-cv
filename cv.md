@@ -1,4 +1,4 @@
- # [rsschool-cv](https://github.com/EvaBee.github.io/rsschool-cv/cv)
+ # [rsschool-cv](https://EvaBee.github.io/rsschool-cv/cv)
 
 ---
 # Bebina Eva
