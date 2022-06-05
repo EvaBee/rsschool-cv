@@ -37,6 +37,7 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 * Git, GitHub
 * VS Code, IntelliJ IDEA
 * Django, Postman
+
 ---
 ### Code example:
 *A function feast that takes the animal's name and 
