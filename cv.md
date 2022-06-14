@@ -1,4 +1,8 @@
+
+ # [rsschool-cv](https://github.com/EvaBee.github.io/rsschool-cv/cv)
+
  # [rsschool-cv](https://EvaBee.github.io/rsschool-cv/cv)
+
 
 ---
 # Bebina Eva
@@ -37,6 +41,9 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 * Git, GitHub
 * VS Code, IntelliJ IDEA
 * Django, Postman
+
+
+
 
 ---
 ### Code example:
