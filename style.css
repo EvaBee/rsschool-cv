@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -197,4 +198,9 @@ ul.git
 }
 .year-font {
     font-family: 'Montserrat', cursive;
+
+.first {
+    font-size: 24px;
+    color: #f05;
+
 }
