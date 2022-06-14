@@ -135,7 +135,7 @@ ul.git
     margin-top: 50px;
     width: 100%;
     height: 65px;
-    background-image: url('/assets/icons/rs_school_js.svg');
+    background-image: url('./assets/icons/rs_school_js.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
