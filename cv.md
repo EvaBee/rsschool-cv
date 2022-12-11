@@ -56,7 +56,6 @@ feast("brown bear", "bear claw"); //false
 ~~~~
 ---
 ### Courses:
-* **RS Schools Course** «JavaScript/Front-end. Stage 1» (in progress).
 * **RS Schools Course** «JavaScript/Front-end. Stage 0».
 * Frontend Developer - **Hexlet** (in progress).
 * JavaScript Basic - **Hexlet**.
