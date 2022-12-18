@@ -2,9 +2,228 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
+    <link rel="icon" href="assets/icons/javascript.ico">
     <title>CV</title>
 </head>
 <body>
+<main class="cv">
+    <div class="about">
+        <header class="main-header">
+            <figure class="avatar">
+                <img src="assets/img/avatar.jpg" alt="Bebina Eva"/>
+            </figure>
+        </header>
+        <aside class="contacts">
+            <h3 class="contacts__text">Contact information:</h3>
+            <div class="underlined"></div>
+            <ul class="phone">
+                <li class="phone__icon"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+                <li class="phone_number">E-mail: bebinaeva@gmail.com</li>
+            </ul>
+            <ul class="phone">
+                <li class="phone__icon"><i class="fas fa-phone-volume"></i></li>
+                <li class="phone_number">Phone: +7995 6260177</li>
+            </ul>
+            <ul class="phone">
+                <li class="phone__icon"><i class="fa fa-comments" aria-hidden="true"></i></li>
+                <li class="phone_number">Discord : Eva_Eva#4383</li>
+            </ul>
+            <ul class="linkedin">
+                <li class="linkedIn__icon"><i class="fab fa-linkedin"></i></li>
+                <li class="linkedIn__link">
+                    <a class="link" href="https://www.linkedin.com/in/eva-bebina-95a344119">
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+            <ul class="git">
+                <li class="Git__icon"><i class="fab fa-github"></i></li>
+                <li class="git-link">
+                    <a class="link" href="https://github.com/EvaBee">GitHub
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <aside class="skills">
+            <h3 class="contacts__text">Skills and Proficiency:</h3>
+            <div class="underlined"></div>
+            <ul class="skills_list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>Git, GitHub</li>
+                <li>VS Code, IntelliJ IDEA</li>
+                <li>Bootstrap</li>
+                <li>Python, Django, Postman</li>
+                <li>English - Intermediate</li>
+            </ul>
+            <div id="code-examples">
+                <h3 class="contacts__text">Code example:</h3>
 
+                <div class="underlined"></div>
+                <div class="code-frame">
+                    <code class="code">
+
+                        const feast = (beast, dish)=> {
+                        return beast[0] === dish[0] && beast[beast.length - 1]=== dish[dish.length - 1];<br>
+                        }<br>
+
+                        feast("great blue heron", "garlic naan"); //true<br>
+                        feast("brown bear", "bear claw"); //false
+                    </code>
+
+                </div>
+            </div>
+        </aside>
+        <div class="rss"></div>
+    </div>
+
+
+    <section class="about-me">
+        <h1>Eva Bebina</h1>
+        <h5>Software Front-end Engineer</h5>
+        <div class="underlined-grey"></div>
+        <article class="courses">
+            <h2>Courses:</h2>
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong">05/2022</span> – <span class="strong">in progress</span>
+                    </div>
+                    <div>
+                        <span class="strong">Rolling Scopes School</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">JavaScript/Front-end. Stage 0</span>
+                </div>
+            </div>
+
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong">01/2022</span> - <span class="strong">in progress</span>
+                    </div>
+                    <div>
+                        <span class="strong">Hexlet</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">Frontend Developer</span></div>
+            </div>
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong"></span> - <span class="strong">2022</span>
+                    </div>
+                    <div>
+                        <span class="strong">Hexlet</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">JavaScript Basic</span></div>
+            </div>
+
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong"></span> - <span class="strong">2021</span>
+                    </div>
+                    <div>
+                        <span class="strong">Udemy</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">JS, CSS, HTML - courses by Vladilen Minin,
+                            Professionl Frontend</span></div>
+            </div>
+
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong"></span> - <span class="strong">2021</span>
+                    </div>
+                    <div>
+                        <span class="strong">Otus</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">JavaScript Developer Basic</span></div>
+            </div>
+
+
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong"></span> - <span class="strong">2021</span>
+                    </div>
+                    <div>
+                        <span class="strong">Otus</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">Git, GitHub</span></div>
+            </div>
+
+            <div class="description">
+                <div class="description__item1">
+                    <div>
+                        <span class="strong">02/2021</span> - <span class="strong">09/2021</span>
+                    </div>
+                    <div>
+                        <span class="strong">Yandex Practicum</span>
+                    </div>
+                </div>
+                <div class="description__item2">
+                    <span class="strong">Python Developer</span></div>
+            </div>
+
+
+        </article>
+
+        <article class="about_myself">
+            <h2>Briefly About Myself:</h2>
+            <div class="underlined-grey"></div>
+            <p>
+                Having started my stading as a student of course backend development with minimum skills, I became
+                profficient in programming. My keen interest in digital technologies led me to stading
+                different courses, where I continued self-learning, examining the process of learning
+                a programming language Python , creating applications in Django framework.</p>
+            <p>Despite the lack of specialized education, I have a craving for self-study and further
+                development in the field of digital technologies and programming.
+                I’m interested in Web Development because this occupation provides endless possibilities for
+                professional
+                growth, besides there’s a huge amount of free high quality resources for self-education and
+                a large community of developers.
+                I believe, that my ability to learn and to gain new skills will lead me through this path of
+                becoming a proficient Front-end Developer.</p>
+            <div class="underlined-grey"></div>
+
+        </article>
+
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__nav__list">
+                    <li class="course-link">
+                        <a href="https://rs.school/js"><i class="fab fa-js">RS School</i></a>
+                    </li>
+                    <li class="git-link">
+                        <a href="https://github.com/EvaBee"> <i class="fab fa-github">GitHub</i></a>
+                    </li>
+
+                    <li class="year">
+                        <span class="year-font">2022</span>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </section>
+
+</main>
 </body>
 </html>
